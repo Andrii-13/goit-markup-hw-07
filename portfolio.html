@@ -24,14 +24,13 @@
     <!-- ============= header ================= -->
 
     <header class="header">
-      <div class="container transform header-box">
-        <nav class="transform">
+      <div class="container transform">
+        <nav class="transform transform-nav">
           <!-- logo -->
           <a href="./index.html" class="logo link"
             >Web<span class="logo-header">Studio</span></a
           >
-
-          <ul class="list transform">
+          <ul class="list transform page-nav">
             <li class="menu-link">
               <a href="./index.html" class="menu-item link">Studio</a>
             </li>
@@ -45,8 +44,19 @@
             </li>
           </ul>
         </nav>
+        <!-- burger  -->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="burger-icon" width="32" height="22">
+            <use href="./images/icons.svg#burger-btn"></use>
+          </svg>
+        </button>
+
         <address class="adress">
-          <ul class="list transform">
+          <ul class="list transform transform-list">
             <li class="adress-link">
               <a href="mailto:info@devstudio.com" class="adress-item link"
                 >info@devstudio.com</a
@@ -92,16 +102,18 @@
           </ul>
 
           <!-- application -->
-          <ul class="list transform">
+          <ul class="list transform app-list">
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/banking-app.jpg"
-                    alt="banking app"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/banking-app.jpg"
+                      alt="banking app"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -118,12 +130,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/cashlessi-payment.jpg"
-                    alt="cashlessi payment"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/cashlessi-payment.jpg"
+                      alt="cashlessi payment"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -139,12 +153,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/meditation-app.jpg"
-                    alt="meditation app"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/meditation-app.jpg"
+                      alt="meditation app"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -160,12 +176,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/taxi-service.jpg"
-                    alt="taxi service"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/taxi-service.jpg"
+                      alt="taxi service"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -181,12 +199,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/screen-illustrations.jpg"
-                    alt="screen illustrations"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/screen-illustrations.jpg"
+                      alt="screen illustrations"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -202,12 +222,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/online-courses.jpg"
-                    alt="online courses"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/online-courses.jpg"
+                      alt="online courses"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -223,12 +245,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/instagram-stories-concept.jpg"
-                    alt="instagram stories concept"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/instagram-stories-concept.jpg"
+                      alt="instagram stories concept"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -244,12 +268,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/organic-food.jpg"
-                    alt="organic food"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/organic-food.jpg"
+                      alt="organic food"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -265,12 +291,14 @@
             <li class="app-cards">
               <a href="" class="link card-box">
                 <div class="img-box">
-                  <img
-                    src="./images/portfolio/fresh-coffee.jpg"
-                    alt="fresh coffee"
-                    width="360"
-                    height="300"
-                  />
+                  <div class="app-thumb">
+                    <img
+                      src="./images/portfolio/fresh-coffee.jpg"
+                      alt="fresh coffee"
+                      width="360"
+                      height="300"
+                    />
+                  </div>
                   <p class="overlay-card">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -331,6 +359,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- footer subscribe  -->
+        <div class="foot-subscribe">
+          <p class="foot-sub-title">Subscribe</p>
+          <form class="foot-sub-form">
+            <input
+              type="email"
+              name="foot-user-mail"
+              class="foot-sub-input"
+              placeholder="E-mail"
+              required
+            />
+
+            <div class="foot-btn-wrap">
+              <button type="submit" class="button foot-btn">Subscribe</button>
+              <svg class="foot-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#plane"></use>
+              </svg>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
