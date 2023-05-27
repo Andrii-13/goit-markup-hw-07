@@ -62,6 +62,10 @@ img {
   }
 }
 
+input:focus {
+  outline: none;
+}
+
 .button {
   color: var(--white-text-colour);
   background-color: var(--button-colour);
@@ -1408,6 +1412,11 @@ img {
   height: 120px;
   padding: 8px 16px;
 }
+
+.user_comment:focus {
+  outline: none;
+}
+
 .user_comment::placeholder {
   color: var(--border-modal-color);
 }
@@ -1421,7 +1430,7 @@ img {
 .checkbox::before {
   content: '';
   display: block;
-  width: 16px;
+  min-width: 16px;
   height: 16px;
   border: 1px solid var(--border-modal-color);
   border-radius: 2px;
