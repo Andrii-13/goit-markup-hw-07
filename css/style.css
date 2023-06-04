@@ -1129,8 +1129,7 @@ input:focus {
 /*  overlay */
 
 .overlay-card {
-  display: none;
-
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -1220,11 +1219,6 @@ input:focus {
 
   object-fit: cover;
   object-position: center;
-}
-
-@media screen and (min-width: 1158px) {
-  .app-thumb > img {
-  }
 }
 
 @media screen and (min-width: 1158px) {
