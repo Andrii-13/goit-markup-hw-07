@@ -1282,6 +1282,10 @@ input:focus {
   transition: transform var(--main-anim-duration) var(--main-cubic);
 }
 
+.not-move{
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1158px) {
   .modal {
     width: 100%;
